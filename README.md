@@ -1,18 +1,20 @@
-# Simple Linux Kernel Module with Visual Studio Code
+## Simple Linux Kernel Module
+With Visual Studio Code
 
-## Preparation
 
-### Tools (Debian/Ubuntu)
+### Preparation
+
+#### Tools (Debian/Ubuntu)
 
 ```sh
 sudo apt install gcc make build-essential
 ```
 
-###  [Visual Studio Code C/C++ Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
+####  [Visual Studio Code C/C++ Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
 
 Replace `linux-headers-5.15.0-57-generic` with your kernel version. (in [c_cpp_properties.json](c_cpp_properties.json))
 
-## Tutorial
+### Tutorial
 
 build:
 ```sh
@@ -39,6 +41,6 @@ cleanup:
 make clean
 ```
 
-## License
+### License
 
 See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
