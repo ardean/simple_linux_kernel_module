@@ -5,17 +5,25 @@
       "browse": {
         "path": [
           "${workspaceFolder}/**",
-          "/usr/src/linux-headers-5.15.0-57-generic/include/",
-          "/usr/src/linux-headers-5.15.0-57-generic/arch/x86/include/",
-          "/usr/src/linux-headers-5.15.0-57-generic/arch/x86/include/generated/"
+          "/usr/include",
+          "/usr/local/include",
+          "/usr/src/linux-headers-5.15.0-57/include",
+          "/usr/src/linux-headers-5.15.0-57/arch/x86/include",
+          "/usr/src/linux-headers-5.15.0-57-generic/include",
+          "/usr/src/linux-headers-5.15.0-57-generic/arch/x86/include",
+          "/usr/src/linux-headers-5.15.0-57-generic/arch/x86/include/generated"
         ],
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
         "${workspaceFolder}/**",
-        "/usr/src/linux-headers-5.15.0-57-generic/include/",
-        "/usr/src/linux-headers-5.15.0-57-generic/arch/x86/include/",
-        "/usr/src/linux-headers-5.15.0-57-generic/arch/x86/include/generated/"
+        "/usr/include",
+        "/usr/local/include",
+        "/usr/src/linux-headers-5.15.0-57/include",
+        "/usr/src/linux-headers-5.15.0-57/arch/x86/include",
+        "/usr/src/linux-headers-5.15.0-57-generic/include",
+        "/usr/src/linux-headers-5.15.0-57-generic/arch/x86/include",
+        "/usr/src/linux-headers-5.15.0-57-generic/arch/x86/include/generated"
       ],
       "compilerPath": "/usr/bin/gcc",
       "cStandard": "${default}",
@@ -25,6 +33,7 @@
         ""
       ],
       "defines": [
+        "KBUILD_MODNAME=\"dummy_name\"",
         "__GNUC__",
         "__KERNEL__",
         "MODULE"

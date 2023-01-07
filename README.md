@@ -12,7 +12,7 @@ sudo apt install gcc make build-essential
 
 ####  [Visual Studio Code C/C++ Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
 
-Replace `linux-headers-5.15.0-57-generic` with your kernel version. (in [.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json))
+Open the file [.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json) and replace `linux-headers-5.15.0-57-generic` with your kernel version. Execute `uname -r` to find out your kernel version.
 
 ### Tutorial
 
